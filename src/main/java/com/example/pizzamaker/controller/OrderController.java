@@ -11,10 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
 
-public class OrderController extends HttpServlet{
+public class OrderController extends HttpServlet {
     private final OrderService orderService = new OrderServiceImpl();
     private final Gson gson = new Gson();
 
@@ -64,7 +62,6 @@ public class OrderController extends HttpServlet{
         int productId = 0;
         int quantity = 0;
         float amount = 0;
-
 
         try {
             id = Integer.parseInt(req.getParameter("id"));

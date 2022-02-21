@@ -1,7 +1,6 @@
 package com.example.pizzamaker.service;
 
 import com.example.pizzamaker.model.Table;
-import javafx.scene.control.Tab;
 
 import java.util.List;
 

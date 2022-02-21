@@ -1,6 +1,5 @@
 package com.example.pizzamaker.repository;
 
-import com.example.pizzamaker.model.Ingredient;
 import com.example.pizzamaker.model.Order;
 import com.example.pizzamaker.util.SQLConnector;
 
